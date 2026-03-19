@@ -1,0 +1,79 @@
+.aboutTitle {
+   font-size: 10px;
+   color: #999;
+   font-weight: 500;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+}
+.aboutSecondTitle {
+   font-size: 18px;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   line-height: 1.8;
+   margin: 0 0 30px;
+   color: #000;
+}
+.aboutText {
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 1.8;
+   color: #000000b3;
+}
+
+.aboutInfo1 {
+   border-bottom: 2px solid var(--main-color);
+}
+.aboutInfo1 h3,
+.aboutInfo2 h3,
+.aboutInfo3 h3,
+.aboutInfo4 h3 {
+   font-size: 16px;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+.aboutInfo1 i {
+   color: var(--main-color);
+   margin-bottom: 20px;
+}
+
+.aboutInfo2 {
+   border-bottom: 2px solid var(--secondary-color);
+}
+.aboutInfo1 i {
+   color: var(--main-color);
+   margin-bottom: 20px;
+}
+.aboutInfo2 i {
+   color: var(--secondary-color);
+   margin-bottom: 20px;
+}
+.aboutInfo3 {
+   border-bottom: 2px solid var(--thid-color);
+}
+
+.aboutInfo3 i {
+   color: var(--thid-color);
+   margin-bottom: 20px;
+}
+.aboutInfo4 {
+   border-bottom: 2px solid var(--forth-color);
+}
+
+.aboutInfo4 i {
+   color: var(--forth-color);
+   margin-bottom: 20px;
+}
+@media (max-width:768px) {
+   .box {
+      margin-bottom:30px;
+   }
+   .aboutTitle {
+      margin-top: 40px;
+   }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .aboutTitle {
+      margin-top: 40px;
+   }
+}

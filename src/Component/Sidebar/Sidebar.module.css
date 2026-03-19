@@ -1,0 +1,50 @@
+/* .logoImg{
+   width:150px;
+   height:150px
+   
+} */
+.userH1{
+   font-size: 22px!important;
+   font-weight: 700!important;
+   line-height: 26px!important;
+   color:black!important;
+}
+.nav-item:hover {
+color: var(--main-color)!important;
+}
+.logoImg {
+   width: 150px !important;
+   height: 150px !important;
+   display: block !important;
+   margin: auto !important;
+   /* object-fit: cover !important; */
+   border-radius: 50% !important;
+   /* overflow: hidden !important; */
+}
+@media (max-width:768px) {
+   .logoImg {
+ width: 100px;
+ height: 100px;
+  /* object-fit: cover !important;
+ border-radius: 50% !important;
+ -webkit-border-radius: 50% !important;
+ -moz-border-radius: 50% !important;
+ -ms-border-radius: 50% !important;
+ -o-border-radius: 50% !important;  */
+}
+}
+.uiux{
+   color:#000000b3;
+   font-size: 12px;
+   font-weight:400;
+   line-height: 22px;
+}
+.uiux a{
+color:var(--main-color);
+}
+nav .nav-item .active {
+   color: var(--main-color) !important;
+}
+/* .myNav{
+   min-height: 100vh !important;
+} */

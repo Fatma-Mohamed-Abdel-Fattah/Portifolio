@@ -1,0 +1,31 @@
+.sworksTitle {
+    margin-bottom: 15px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.worksSecondTitle {
+   font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    margin: 0 0 30px;
+   }
+   .worksLi{
+      color:black !important;
+      background-color:transparent !important;
+   }
+   .worksLi.active{
+      color:var(--main-color) !important;
+   }
+  :global(.nav-pills .nav-link.active) {
+  color: var(--main-color) !important;
+  background: transparent !important;
+}
+.imageContainer {
+   width: 371px;
+   height: 400px;
+}

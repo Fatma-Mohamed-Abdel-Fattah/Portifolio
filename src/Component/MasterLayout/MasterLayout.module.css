@@ -1,0 +1,30 @@
+
+   /* ثابت على شاشة الديسكتوب فقط */
+@media (min-width: 992px) {
+  .sidebar  {
+    position: fixed;  /* يخلي العنصر ثابت */
+    top: 0;           /* يبدأ من أعلى الصفحة */
+    left: 0;          /* ثابت على الشمال */
+    height: 100%;     /* يغطي ارتفاع الصفحة كامل */
+    width: 250px;     /* عرض السلايدر، ممكن تغيره حسب التصميم */
+    z-index: 1000;    /* فوق باقي العناصر */
+    overflow-y: auto; /* لو محتوى السلايدر طويل يقدر يسكرول */
+  }
+
+  .OutletStyles {
+    margin-left: 200px; 
+  }
+}
+
+/* على الموبايل يرجع طبيعي */
+@media (max-width: 991px) {
+  .sidebar {
+    position: relative;
+    width: 100%;  /* يشغل كامل العرض أو حسب تصميمك */
+    height: auto;
+  }
+
+  .OutletStyles {
+    margin-left: 0;
+  }
+}
